@@ -141,9 +141,10 @@ top: 1px;
 }
 
 .main-form {
-  position: absolute;
-  top:33.3%;
-  left:33.3%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin:-280px 0 0 -260px;
   width: 560px;
   background: rgba(0, 0, 0, 0.5);
 }
