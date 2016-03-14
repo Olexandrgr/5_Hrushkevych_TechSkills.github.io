@@ -19,13 +19,9 @@
 
 body {
   font-family: Tahoma, sans-serif;
-}
-
-.wrapper {
-  background-image: url(../img/background.jpg);
-  margin: 0 auto;
-  width: 1215px;
-  height: 1030px;
+  background-image: url(../img/background1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .main {
@@ -145,10 +141,10 @@ top: 1px;
 }
 
 .main-form {
+  position: absolute;
+  top:33.3%;
+  left:33.3%;
   width: 560px;
-
-  margin-left: 353px;
-  margin-top: 213px;
   background: rgba(0, 0, 0, 0.5);
 }
 
